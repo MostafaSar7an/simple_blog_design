@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f1217;
+}
+
+header {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+header > .logo > p {
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+
+nav > ul > li {
+  padding-inline: 15px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero > .hero-logo {
+  width: 194.445px;
+  height: 204.084px;
+  flex-shrink: 0;
+  margin-top: 50px;
+}
+
+.text {
+  color: #fff;
+  font-family: Recursive;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.text .heading {
+  color: #ff7575;
+  font-size: 71px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: -5px;
+}
+
+.text .sub-text {
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hr-hero {
+  height: 3px;
+  opacity: 0.5;
+  color: #4d4d4d;
+  margin-top: 80px;
+}
+
+.nav-blogs li {
+  color: #909090;
+  font-family: Recursive;
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.exp {
+  opacity: 0.5;
+  background: linear-gradient(270deg, #232830 0.01%, rgba(35, 40, 48, 0) 87.5%);
+}
+
+.blogs {
+  margin-top: 50px;
+}
+
+.card {
+  width: 390px;
+  height: 439px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  border: 1px solid #252930;
+  margin: 9px;
+}
+
+.card img {
+  border-radius: 22px;
+  background: url(../img/image1.png), lightgray 50% / cover no-repeat;
+  width: 337.08px;
+  height: 160px;
+  margin: auto;
+}
+
+.card > .head-card {
+  width: 337.08px;
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card > .text-card {
+  width: 326.726px;
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: start;
+  margin: auto;
+}
+
+.footer-card {
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.navgation-ul {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: #909090;
+  font-family: Recursive;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 150px;
+}
+
+.navgation-ul li {
+  padding: 30px;
+  cursor: pointer;
+}
+
+.navgation-ul li:hover {
+  color: #ff7575;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.selcted-2 {
+  color: #ff7575;
+  font-family: Recursive;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  border-top: 4px solid #ff7575;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+footer .left {
+  display: flex;
+  align-items: center;
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 15px;
+}
+
+.by {
+  width: 130px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #4699e0;
+  color: #fff;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  line-height: 34px;
+}
+
+.follow {
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #4699e0;
+  color: #fff;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  line-height: 34px;
+  padding-inline: 15px;
+}
+/* =================THE END================ */
